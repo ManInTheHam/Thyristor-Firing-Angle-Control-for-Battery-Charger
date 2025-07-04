@@ -1,30 +1,41 @@
 # Thyristor-Firing-Angle-Control-for-Battery-Charger
 
 
-🔋 Thyristor Firing Angle Control for Battery Charger
-This project implements a firing angle control system for a thyristor-based battery charger using phase angle control. By adjusting the firing angle of the thyristor, the voltage supplied to the battery can be precisely controlled, enabling safe and efficient charging. This method is particularly useful for lead-acid batteries where voltage regulation is critical to prevent overcharging.
+# 🔋 Thyristor Firing Angle Control for Battery Charger
 
-⚙️ Features
-Phase-controlled rectification using a thyristor (SCR)
+This project demonstrates a method for controlling the charging of a battery using a thyristor (SCR) with phase angle control. By adjusting the firing angle of the thyristor, we can regulate the DC output voltage delivered to the battery, ensuring safe and efficient charging.
 
-Adjustable firing angle via microcontroller or control circuit
+## 📌 Objective
 
-Improved charging efficiency and protection
+To design and implement a circuit/system that:
+- Uses a thyristor for AC-to-DC conversion via phase control.
+- Allows adjustment of the firing angle to regulate the output voltage.
+- Provides a controlled and safe charging mechanism for batteries.
 
-Simulation and/or hardware implementation (e.g., using MATLAB/Simulink, Arduino, or other platforms)
+## ⚙️ How It Works
 
-🧠 Applications
-Smart battery charging systems
+A thyristor (Silicon Controlled Rectifier - SCR) acts as a switch in the AC circuit. By varying the point (firing angle) at which the thyristor is triggered within each AC cycle:
+- The conduction period changes.
+- The average output voltage is controlled.
+- Thus, the voltage supplied to the battery is modulated.
 
-Industrial DC power supplies
+This control method is commonly used for lead-acid batteries to prevent overcharging and extend battery life.
 
-Controlled power delivery in renewable energy storage systems
+## 🛠️ Tools & Technologies
 
-📂 Repository Contents
-Circuit schematics / simulation files
+- 🔌 **Thyristor/SCR-based Circuit**
+- ⚡ **Zero Crossing Detector** for synchronization
+- 🧠 **Microcontroller / Firing Control Logic** (e.g., Arduino, 555 Timer, or DSP)
+- 📐 **Simulation**: MATLAB/Simulink, Proteus, or LTspice (optional)
+- 📊 **Oscilloscope / Multimeter**: To analyze waveform and output voltage
 
-Source code for firing control (if applicable)
+## 🧪 Features
 
-Documentation and explanation of methodology
+- Adjustable firing angle control (0°–180°)
+- Safe charging mechanism via voltage regulation
+- Smooth DC output for battery charging
+- Optionally includes closed-loop feedback using voltage sensing
 
-Results/plots showing voltage control based on firing angle
+## 📂 Repository Structure
+
+
