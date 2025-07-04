@@ -36,6 +36,24 @@ This control method is commonly used for lead-acid batteries to prevent overchar
 - Smooth DC output for battery charging
 - Optionally includes closed-loop feedback using voltage sensing
 
-## 📂 Repository Structure
+
+## 📸 Screenshots / Waveforms
+
+> ![image](https://github.com/user-attachments/assets/bdf02e46-0968-4bfc-b0da-2a1bdf8437be)
+
+
+## 🚀 Applications
+
+- Battery chargers (especially lead-acid)
+- Industrial DC motor controllers
+- Controlled rectifiers in renewable energy systems
+
+## 🧑‍💻 Authors & Contribution
+
+- **Soham Joshi** – Circuit Design, Code, Documentation
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
 
 
