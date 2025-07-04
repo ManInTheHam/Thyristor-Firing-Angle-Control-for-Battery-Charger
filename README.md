@@ -1,8 +1,5 @@
 # Thyristor-Firing-Angle-Control-for-Battery-Charger
 
-
-# 🔋 Thyristor Firing Angle Control for Battery Charger
-
 This project demonstrates a method for controlling the charging of a battery using a thyristor (SCR) with phase angle control. By adjusting the firing angle of the thyristor, we can regulate the DC output voltage delivered to the battery, ensuring safe and efficient charging.
 
 ## 📌 Objective
